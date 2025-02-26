@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/canvas">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="60sp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="290dp"
+
+        />
+
+    <EditText
+        android:id="@+id/loginEmail"
+        android:layout_width="528dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custom_button_description"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="15dp"
+        android:textColorHint="#fff"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="528dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custom_button_description"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingStart="15dp"
+        android:textColorHint="#fff"
+        android:textSize="25sp" />
+
+
+    <CheckBox
+        android:id="@+id/logRemember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="148dp"
+        android:text="@string/remember_account"
+        android:onClick="goToScreen"
+        android:textColor="#fff"
+        android:textSize="20sp"
+
+
+    />
+
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:elevation="10dp"
+        android:onClick="login"
+        android:text="@string/login"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:text=" Forgot Password?"
+        android:layout_marginTop="40dp"
+        android:textColor="#fff"
+        android:onClick="goToScreen"
+        android:id="@+id/forgotPassword"
+        android:textSize="23sp"
+        android:drawableStart="@drawable/key"
+
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:text=" Sign up"
+        android:textColor="#fff"
+        android:onClick="goToScreen"
+        android:id="@+id/logSignUp"
+        android:layout_marginTop="15dp"
+        android:textSize="23sp"
+        android:drawableStart="@drawable/sign_up_person"
+
+        />
+
+
+</LinearLayout>

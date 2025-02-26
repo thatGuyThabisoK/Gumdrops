@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Gumdrops</string>
+    <string name="gender">Gender</string>
+    <string name="location">Location</string>
+    <string name="age">Age</string>
+    <string name="nickname">Nickname</string>
+    <string name="take_photos">Take photos</string>
+    <string name="few_words_about_me">Few words about me....</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="remember_account">Remember account?</string>
+    <string name="password">Password</string>
+
+</resources>

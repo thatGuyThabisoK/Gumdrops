@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/canvas_without_bar"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/btnSubmit"
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320dp"
+
+        android:background="@android:drawable/ic_menu_send"
+        android:onClick="sendEmail" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="@string/take_photos"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+        android:gravity="start"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="10dp"
+        android:textSize="30dp"/>
+
+    <HorizontalScrollView
+        android:layout_width="345dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="10dp"
+        android:scrollbarDefaultDelayBeforeFade="2"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/add"
+                android:onClick="takePicture"/>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="5dp"
+        android:text="Info"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <LinearLayout
+
+        android:layout_width="345dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtNickname"
+            android:textColorHint="#fff"
+            android:layout_width="206dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/custom_button_description"
+            android:hint="@string/nickname"
+            android:paddingStart="13dp"
+            android:paddingEnd="77dp"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:textColorHint="#fff"
+            android:layout_height="40dp"
+            android:id="@+id/edtAge"
+            android:background="@drawable/custom_button_description"
+            android:hint="@string/age"
+            android:paddingStart="13dp"
+            android:paddingEnd="77dp"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/dashDescription"
+        android:layout_width="333dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="6dp"
+        android:textSize="15sp"
+        android:gravity="start"
+        android:textColorHint="#fff"
+        android:paddingStart="13dp"
+        android:paddingTop="8dp"
+        android:background="@drawable/custom_button_description"
+        android:hint="@string/few_words_about_me" />
+
+    <LinearLayout
+        android:layout_width="335dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtGender"
+            android:layout_width="166dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/custom_button_description"
+            android:hint="@string/gender"
+            android:paddingStart="13dp"
+            android:paddingEnd="77dp"
+            android:textColorHint="#fff"
+            android:textSize="15sp" />
+
+        <EditText
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:background="@drawable/custom_button_description"
+            android:hint="@string/location"
+            android:id="@+id/edtLocation"
+            android:paddingStart="13dp"
+            android:paddingEnd="77dp"
+
+            android:textColorHint="#fff"
+
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="250dp"
+        android:textSize="12sp"
+        android:onClick="signOut"
+        android:background="@drawable/custom_button_description"
+        android:text="Sign out" />
+
+
+
+</LinearLayout>
+
+
+</ScrollView>

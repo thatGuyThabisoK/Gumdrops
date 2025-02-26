@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "670011996158",
+    "firebase_url": "https://gumdrops-35945.firebaseio.com",
+    "project_id": "gumdrops-35945",
+    "storage_bucket": "gumdrops-35945.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670011996158:android:ba9b3e3cea68c38ac672af",
+        "android_client_info": {
+          "package_name": "com.candy.gumdrops"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670011996158-crreusk0djn2mr8hrlnv2svadpkibo5l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.candy.gumdrops",
+            "certificate_hash": "8ccc73537758ac5bd588f4e7ea4f53601facb657"
+          }
+        },
+        {
+          "client_id": "670011996158-47vlp8e7ok11pcrsh1rf2evus5259lvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdOmdNuSmDPUz6HhBCi3_19-Vws4xGIX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670011996158-47vlp8e7ok11pcrsh1rf2evus5259lvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

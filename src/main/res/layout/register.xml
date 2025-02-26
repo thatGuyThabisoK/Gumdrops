@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/canvas">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="40dp"
+        android:textSize="45sp"
+        android:textColor="#fff"
+        android:layout_marginStart="101dp"/>
+
+    <EditText
+        android:layout_width="313dp"
+        android:textSize="15sp"
+        android:id="@+id/regNickname"
+        android:layout_height="52dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:textColorHint="#fff"
+        android:background="@drawable/custom_button_description"
+        android:hint="Nickname"
+        android:paddingStart="15sp" />
+
+    <EditText
+        android:layout_width="313dp"
+        android:layout_height="52dp"
+        android:hint="Password"
+        android:id="@+id/regPassword"
+        android:inputType="textPassword"
+        android:textSize="15sp"
+        android:paddingStart="15sp"
+        android:background="@drawable/custom_button_description"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="10sp"
+        android:textColorHint="#fff"
+        />
+
+    <EditText
+        android:layout_width="313dp"
+        android:layout_height="52dp"
+        android:textSize="15sp"
+        android:layout_marginBottom="10sp"
+        android:hint="Phone number"
+        android:id="@+id/regPhoneNumber"
+        android:paddingStart="15sp"
+        android:textColorHint="#fff"
+        android:background="@drawable/custom_button_description"
+        android:layout_marginStart="18dp"
+        />
+
+    <EditText
+        android:layout_marginBottom="10sp"
+        android:textSize="15sp"
+        android:inputType="textEmailAddress"
+        android:paddingStart="15sp"
+        android:id="@+id/regEmail"
+        android:layout_width="313dp"
+        android:layout_height="52dp"
+        android:hint="@string/email"
+        android:background="@drawable/custom_button_description"
+        android:layout_marginStart="18dp"
+        android:textColorHint="#fff"
+        />
+
+    <EditText
+        android:layout_width="313dp"
+        android:textSize="15sp"
+        android:layout_height="149dp"
+        android:layout_marginStart="18dp"
+        android:background="@drawable/custom_button_description"
+        android:hint="@string/few_words_about_me"
+        android:gravity="start"
+        android:paddingTop="8dp"
+        android:paddingStart="10sp"
+        android:id="@+id/description"
+        android:textColorHint="#fff"/>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agree to terms and conditions"
+        android:layout_marginStart="18dp"
+        android:id="@+id/chkTandC"
+        android:onClick="createAccount"
+        />
+
+
+
+
+
+</LinearLayout>
