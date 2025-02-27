@@ -4,11 +4,13 @@
 ***
 
 ## In App Design
-<img height=200 src="https://github.com/thatGuyThabisoK/Gumdrops/blob/main/src/main/res/normal/2020-11-07.png"> 
-<img height=200 src="https://github.com/thatGuyThabisoK/Gumdrops/blob/main/src/main/res/normal/2020-11-07%20(1).png">
-<img  height=200 src="https://github.com/thatGuyThabisoK/Gumdrops/blob/main/src/main/res/normal/2020-11-07%20(4).png">
-<img  height=200 src="https://github.com/thatGuyThabisoK/Gumdrops/blob/main/src/main/res/normal/2020-11-07%20(3).png">
-<img  height=200 src="https://github.com/thatGuyThabisoK/Gumdrops/blob/main/src/main/res/normal/2020-11-07%20(2).png">
+<p align="center">
+<img height=250 src="https://github.com/thatGuyThabisoK/Gumdrops/blob/main/src/main/res/normal/2020-11-07.png"> 
+<img height=250 src="https://github.com/thatGuyThabisoK/Gumdrops/blob/main/src/main/res/normal/2020-11-07%20(1).png">
+<img  height=250 src="https://github.com/thatGuyThabisoK/Gumdrops/blob/main/src/main/res/normal/2020-11-07%20(4).png">
+<img  height=250 src="https://github.com/thatGuyThabisoK/Gumdrops/blob/main/src/main/res/normal/2020-11-07%20(3).png">
+<img  height=250 src="https://github.com/thatGuyThabisoK/Gumdrops/blob/main/src/main/res/normal/2020-11-07%20(2).png">
+</p>
 
 ### Description
 * For the login page i used firebaseAuth to authentication and facilitate the creation of new user accounts.
